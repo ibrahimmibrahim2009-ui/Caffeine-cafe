@@ -124,7 +124,7 @@ header .container ul li a:hover {
   background: url(../images/home-bg.png) center no-repeat;
   background-size: 100%;
   background-color: var(--bg-color);
-  padding-top: 90px;
+  padding: 90px 0 var(--section-padding);
 }
 @media (max-width: 767px) {
   #home {
