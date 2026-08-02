@@ -55,6 +55,14 @@ h3 {
     width: 1170px;
   }
 }
+.heading span {
+  font-size: 18px;
+}
+.heading h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 /* End Global Rules */
 /* Header */
 header {
@@ -187,4 +195,43 @@ header .container ul li a:hover {
 }
 /* End About */
 /* Start Menu */
+#menu {
+  background-color: var(--bg-secondary);
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+#menu .container {
+  gap: 100px;
+}
+#menu ul li {
+  border: 1px solid #ddd;
+  padding: 25px 20px;
+}
+#menu ul li:not(:last-child) {
+  margin-bottom: 30px;
+}
+#menu ul li img {
+  width: 80px;
+  margin-left: -50px;
+} 
+#menu ul li .details {
+  margin-left: 20px;
+}
+#menu ul li .details h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+#menu ul li .details p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+#menu ul li .price {
+  border-left: 1px solid #eee;
+  padding: 20px;
+  margin: auto;
+}
+#menu ul li .price p {
+  font-size: 20px;
+  font-weight: 600;
+}
 /* End Menu */
