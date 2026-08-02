@@ -351,3 +351,56 @@ header .container ul li a:hover {
   background-color: var(--light-brown);
 }
 /* End Contact */
+/* Start Footer */
+#footer .top-footer {
+  padding: var(--section-padding) 0;
+  background-image: url(../images/footer-bg.png);
+  color: #fff;
+}
+#footer .top-footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+#footer .top-footer .container .col:first-child {
+  flex-basis: 50%;
+}
+#footer .col h3 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+#footer .col p {
+  max-width: 400px;
+  line-height: 1.6;
+}
+@media (max-width: 767px) {
+  #footer .col p {
+    margin: auto;
+  }
+}
+#footer .col ul li {
+  margin: 10px 0;
+}
+#footer .col ul li i {
+  margin-right: 10px;
+}
+#footer .col ul li a {
+  color: #fff;
+}
+#footer .copyright {
+  background-color: var(--dark-grey);
+  padding: 30px 0;
+  text-align: center;
+  color: #fff;
+}
+#footer .copyright p {
+  font-weight: 500;
+}
+#footer .copyright strong {
+  transition: var(--main-transition);
+  cursor: pointer;
+}
+#footer .copyright strong:hover {
+  color: var(--light-brown);
+}
+/* End Footer */
