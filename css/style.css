@@ -21,6 +21,7 @@ a {
 }
 body {
   font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 h1,
 h2,
@@ -203,6 +204,11 @@ header .container ul li a:hover {
 #menu .container {
   gap: 100px;
 }
+@media (min-width: 767px) and (max-width: 991px)  {
+  #menu .container {
+    gap: 50px;
+  }
+}
 #menu ul li {
   border: 1px solid #ddd;
   padding: 25px 20px;
@@ -229,6 +235,12 @@ header .container ul li a:hover {
   border-left: 1px solid #eee;
   padding: 20px;
   margin: auto;
+}
+@media (min-width: 767px) and (max-width: 991px)  {
+  #menu ul li .price {
+    padding: 5px;
+    margin: auto;
+  }
 }
 #menu ul li .price p {
   font-size: 20px;
