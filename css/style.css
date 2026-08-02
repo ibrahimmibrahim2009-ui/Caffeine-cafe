@@ -108,23 +108,16 @@ header .container ul li a:hover {
   background: url(../images/home-bg.png) center no-repeat;
   background-size: 100%;
   background-color: var(--bg-color);
-}
-#home .home-content {
   padding-top: 90px;
-  min-height: 100vh;
-  gap: 3rem;
-}
-@media (max-width: 991px) {
-  #home .home-content {
-    padding-top: 153px;
-  }
 }
 @media (max-width: 767px) {
-  #home .home-content {
-    flex-direction: column-reverse;
-    padding-top: 10px;
-    text-align: center;
+  #home {
+    padding-top: 0;
   }
+}
+#home .home-content {
+  min-height: 100vh;
+  gap: 3rem;
 }
 #home .home-content .text h3 {
   font-size: 24px;
@@ -164,16 +157,9 @@ header .container ul li a:hover {
   margin-left: 5px
 }
 #home .home-content img {
-  width: 545px;
+  max-width: 100%;
 }
-@media (max-width: 1199px) {
-  #home .home-content img {
-    width: 400px
-  }
-}
-@media (max-width: 767px) {
-  #home .home-content img {
-    width: 200px
-  }
+@media (max-wi) {
+  
 }
 /* End Home */
