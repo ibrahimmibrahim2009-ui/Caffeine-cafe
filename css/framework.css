@@ -1,11 +1,10 @@
 :root {
   /* Main Colors */
-  --blue-color: #0075ff;
-  --blue-alt-color: #0d69d5;
-  --orange-color: #f59e0b;
-  --green-color: #22c55e;
-  --red-color: #f44336;
-  --grey-color: #888;
+  --bg-color: #f1f1f1;
+  --bg-secondary: #fbfbfb;
+  --dark-grey: #333;
+  --light-brown: #c7a17a;
+  --black: #1f2226;
   --main-transition: 0.3s;
 }
 /* Start Dimensions */
@@ -225,6 +224,9 @@
 }
 .fs-16 {
   font-size: 16px;
+}
+.fs-18 {
+  font-size: 18px;
 }
 .fs-25 {
   font-size: 25px;
